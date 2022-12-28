@@ -1,3 +1,5 @@
+subprocess.call("""ln -s  ~/.apt/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 ~/.apt/usr/lib/x86_64-linux-gnu/""", shell=True)
+
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 import logging
 import subprocess
