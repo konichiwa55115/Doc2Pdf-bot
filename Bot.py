@@ -5,8 +5,6 @@ import re
 import os
 from Secrets import TOKEN
 
-subprocess.call("""ln -s  ~/.apt/usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 ~/.apt/usr/lib/x86_64-linux-gnu/""", shell=True)
-
 logging.basicConfig(
     format=u'%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO)
